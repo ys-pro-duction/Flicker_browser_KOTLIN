@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FlickerBrowser" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/PRIMARY</item>
+        <item name="colorPrimaryVariant">@color/ACCENT_COLOR</item>
+        <item name="colorOnPrimary">@color/DARK_PRIMARY</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/DARK_PRIMARY</item>
+        <item name="colorSecondaryVariant">@color/ACCENT_COLOR</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackgroundFloating">@color/ACCENT_COLOR</item>
+        <item name="android:textColor">@color/PRIMARY_Text</item>
+        <item name="android:textColorSecondary">@color/SECONDARY_Text</item>
+
+    </style>
+
+    <style name="Theme.FlickerBrowser.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FlickerBrowser.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FlickerBrowser.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
